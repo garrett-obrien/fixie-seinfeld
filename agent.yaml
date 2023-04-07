@@ -1,5 +1,0 @@
-handle: seinfeld
-description: An agent that answers questions from the script of Seinfeld.
-more_info_url: ''
-entry_point: main:agent
-public: false

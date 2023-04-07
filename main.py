@@ -1,10 +1,11 @@
 import fixieai
 
 BASE_PROMPT = (
-    "I am an agent that answers questions using the script of the TV show Seinfeld."
+    "I am an agent that answers questions about the TV show Seinfeld."
     "User may have follow-up questions that refers to something mentioned before but I "
     "always do Ask Func[fixie_query_corpus] with a complete question, without any "
     "reference."
+    "I only route queries to reference text about Seinfeld."
 )
 
 FEW_SHOTS = """
@@ -25,6 +26,15 @@ A: George guesses that Mr. Pill probably eats his Snickers with a knife and fork
 
 URLS = [
     "https://raw.githubusercontent.com/luonglearnstocode/Seinfeld-text-corpus/master/corpus.txt",
+    "https://en.wikipedia.org/wiki/Seinfeld_(season_1)",
+    "https://en.wikipedia.org/wiki/Seinfeld_(season_2)",
+    "https://en.wikipedia.org/wiki/Seinfeld_(season_3)",
+    "https://en.wikipedia.org/wiki/Seinfeld_(season_4)",
+    "https://en.wikipedia.org/wiki/Seinfeld_(season_5)",
+    "https://en.wikipedia.org/wiki/Seinfeld_(season_6)",
+    "https://en.wikipedia.org/wiki/Seinfeld_(season_7)",
+    "https://en.wikipedia.org/wiki/Seinfeld_(season_8)",
+    "https://en.wikipedia.org/wiki/Seinfeld_(season_9)",
 ]
 
 CORPORA = [fixieai.DocumentCorpus(urls=URLS)]

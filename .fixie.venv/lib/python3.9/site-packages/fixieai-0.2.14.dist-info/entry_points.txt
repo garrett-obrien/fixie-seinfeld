@@ -1,0 +1,4 @@
+[console_scripts]
+fixie=fixieai.cli.cli:fixie
+fixieai=fixieai.cli.cli:fixie
+

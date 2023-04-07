@@ -1,0 +1,5 @@
+handle: seinfeld
+description: An agent that answers questions from the script of Seinfeld.
+more_info_url: 'https://github.com/garrett-obrien/fixie/tree/main/seinfeld'
+entry_point: main:agent
+public: false

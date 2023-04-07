@@ -1,1 +1,1 @@
-Experimenting with fixie.ai
+Experimenting with fixie.ai to create a Seinfeld trivia bot.

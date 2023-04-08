@@ -25,7 +25,7 @@ A: George guesses that Mr. Pill probably eats his Snickers with a knife and fork
 """
 
 URLS = [
-    "https://raw.githubusercontent.com/luonglearnstocode/Seinfeld-text-corpus/master/corpus.txt",
+    "https://raw.githubusercontent.com/garrett-obrien/fixie-seinfeld/main/seinfeld-text-corpus.txt",
     "https://en.wikipedia.org/wiki/Seinfeld_(season_1)",
     "https://en.wikipedia.org/wiki/Seinfeld_(season_2)",
     "https://en.wikipedia.org/wiki/Seinfeld_(season_3)",

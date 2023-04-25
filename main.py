@@ -35,6 +35,7 @@ URLS = [
     "https://en.wikipedia.org/wiki/Seinfeld_(season_7)",
     "https://en.wikipedia.org/wiki/Seinfeld_(season_8)",
     "https://en.wikipedia.org/wiki/Seinfeld_(season_9)",
+    "https://seinfeld.fandom.com/wiki/*", 
 ]
 
 CORPORA = [fixieai.DocumentCorpus(urls=URLS)]

@@ -1,4 +1,4 @@
-A Seinfeld trivia bot that answers questions using the show script and Wikipedia pages.
+A Seinfeld trivia bot that answers questions using the show script and Wikipedia pages. Testing
 
 Public link to the Fixie agent: https://app.fixie.ai/agents/g.thomasobrien/seinfeld
 

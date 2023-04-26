@@ -40,5 +40,5 @@ URLS = [
 
 CORPORA = [fixieai.DocumentCorpus(urls=URLS)]
 agent = fixieai.CodeShotAgent(BASE_PROMPT, FEW_SHOTS, CORPORA, conversational=True,
-llm_settings=fixieai.LlmSettings(temperature=0, model="openai/text-davinci-003", maximum_tokens=2000)
+llm_settings=fixieai.LlmSettings(temperature=0, model="openai/gpt-4", maximum_tokens=2000)
 )

@@ -1,10 +1,10 @@
 import fixieai
 
 BASE_PROMPT = (
-    "I am an agent that answers questions about the TV show Seinfeld."
-    "User may have follow-up questions that refers to something mentioned before but I "
-    "always do Ask Func[fixie_query_corpus] with a complete question, without any "
-    "reference."
+    "I am an expert in trivia about the TV show Seinfeld. I answer questions about the show confidently and concisely."
+    # "User may have follow-up questions that refers to something mentioned before but I "
+    # "always do Ask Func[fixie_query_corpus] with a complete question, without any "
+    # "reference."
     "I only route queries to reference text about Seinfeld."
 )
 
@@ -35,10 +35,10 @@ URLS = [
     "https://en.wikipedia.org/wiki/Seinfeld_(season_7)",
     "https://en.wikipedia.org/wiki/Seinfeld_(season_8)",
     "https://en.wikipedia.org/wiki/Seinfeld_(season_9)",
-    "https://seinfeld.fandom.com/wiki/*", 
+   # "https://seinfeld.fandom.com/wiki/*", 
 ]
 
 CORPORA = [fixieai.DocumentCorpus(urls=URLS)]
 agent = fixieai.CodeShotAgent(BASE_PROMPT, FEW_SHOTS, CORPORA, conversational=True,
-llm_settings=fixieai.LlmSettings(temperature=0, model="openai/text-davinci-003", maximum_tokens=1000)
+llm_settings=fixieai.LlmSettings(temperature=0, model="openai/text-davinci-003", maximum_tokens=2000)
 )

@@ -5,7 +5,7 @@ BASE_PROMPT = (
     # "User may have follow-up questions that refers to something mentioned before but I "
     # "always do Ask Func[fixie_query_corpus] with a complete question, without any "
     # "reference."
-    "I only route queries to reference text about Seinfeld."
+    "I only route queries to reference text about Seinfeld. I always do Ask Func[fixie_query_corpus] when answering."
 )
 
 FEW_SHOTS = """

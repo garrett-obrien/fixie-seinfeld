@@ -11,17 +11,20 @@ BASE_PROMPT = (
 FEW_SHOTS = """
 Q: What is the first job that George lies about having?
 Ask Func[fixie_query_corpus]: What is the first job that George lies about having?
-Func[fixie_query_corpus] says: In the first episode, George lies to Vanessa and tells her that he is an architect.
-A: In the first episode, George lies to Vanessa and tells her that he is an architect.
+Func[fixie_query_corpus] says: George lies to Vanessa and tells her that he is an architect.
+A: George lies to Vanessa and tells her that he is an architect.
 
 Q: How does Mr. Pitt eat his Snickers?
 Ask Func[fixie_query_corpus]: How does Mr. Pitt eat his Snickers?
 Func[fixie_query_corpus] says: Elaine tells George and Jerry that Mr. Pitt eats his Snickers with a knife and fork.
 A: Elaine tells George and Jerry that Mr. Pitt eats his Snickers with a knife and fork.
-Q: Why does he do it?
-Ask Func[fixie_query_corpus]: Why does Mr. Pitt eat his Snickers with a knife and fork?
-Func[fixie_query_corpus] says: George guesses that Mr. Pill probably eats his Snickers with a knife and fork because he doesn't want to get chocolate on his fingers.
-A: George guesses that Mr. Pill probably eats his Snickers with a knife and fork because he doesn't want to get chocolate on his fingers.
+
+Q: According to Elaine, which flavor of babka is the “lesser babka”?
+Ask Func[fixie_query_corpus]: According to Elaine, which flavor of babka is the "lesser babka"?
+Func[fixie_query_corpus] says: After Jerry suggests getting the cinnamon babka,
+Elaine says "we'll be doing in with lesser babka," referring to the cinnamon flavor.
+Elaine therefore thinks that cinnamon is the "lesser babka".
+A: According to Elaine, cinnamon is the "lesser babka".
 """
 
 URLS = [

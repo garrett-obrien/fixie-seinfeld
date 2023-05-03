@@ -5,7 +5,7 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore venv.
-.fixie.venv/
+/.fixie.venv/
 
 #Ignore pycache.
-__pycache__/
+/__pycache__/

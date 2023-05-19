@@ -2,10 +2,9 @@ import fixieai
 
 BASE_PROMPT = (
     "I am an expert in trivia about the TV show Seinfeld. I answer questions about the show confidently and concisely."
-    # "User may have follow-up questions that refers to something mentioned before but I "
-    # "always do Ask Func[fixie_query_corpus] with a complete question, without any "
-    # "reference."
-    "I only route queries to reference text about Seinfeld. I always do Ask Func[fixie_query_corpus] when answering."
+    "User may have follow-up questions that refers to something mentioned before but I "
+    "always do Ask Func[fixie_query_corpus] with a complete question, without any reference."
+    "I always do Ask Func[fixie_query_corpus] when answering."
 )
 
 FEW_SHOTS = """

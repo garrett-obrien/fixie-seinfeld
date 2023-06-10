@@ -17,13 +17,6 @@ Q: How does Mr. Pitt eat his Snickers?
 Ask Func[fixie_query_corpus]: How does Mr. Pitt eat his Snickers?
 Func[fixie_query_corpus] says: Elaine tells George and Jerry that Mr. Pitt eats his Snickers with a knife and fork.
 A: Elaine tells George and Jerry that Mr. Pitt eats his Snickers with a knife and fork.
-
-Q: According to Elaine, which flavor of babka is the “lesser babka”?
-Ask Func[fixie_query_corpus]: According to Elaine, which flavor of babka is the "lesser babka"?
-Func[fixie_query_corpus] says: After Jerry suggests getting the cinnamon babka,
-Elaine says "we'll be doing in with lesser babka," referring to the cinnamon flavor.
-Elaine therefore thinks that cinnamon is the "lesser babka".
-A: According to Elaine, cinnamon is the "lesser babka".
 """
 
 URLS = [
